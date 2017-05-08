@@ -14,12 +14,14 @@
 		BE05147B1EBC34CF005A90B5 /* AllHeroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0514701EBC34CF005A90B5 /* AllHeroModel.m */; };
 		BE05147C1EBC34CF005A90B5 /* FreeHeroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0514721EBC34CF005A90B5 /* FreeHeroModel.m */; };
 		BE05147D1EBC34CF005A90B5 /* HeroCZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0514741EBC34CF005A90B5 /* HeroCZModel.m */; };
-		BE05147E1EBC34CF005A90B5 /* HeroDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0514761EBC34CF005A90B5 /* HeroDetailModel.m */; };
 		BE05147F1EBC34CF005A90B5 /* HeroSkinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0514781EBC34CF005A90B5 /* HeroSkinModel.m */; };
 		BE0514801EBC34CF005A90B5 /* HeroVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE05147A1EBC34CF005A90B5 /* HeroVideoModel.m */; };
 		BE0514831EBC34D8005A90B5 /* TuWanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0514821EBC34D8005A90B5 /* TuWanModel.m */; };
 		BE0514881EBC34E0005A90B5 /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0514851EBC34E0005A90B5 /* AlbumModel.m */; };
 		BE0514891EBC34E0005A90B5 /* RankingListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0514871EBC34E0005A90B5 /* RankingListModel.m */; };
+		BE05148C1EBC7556005A90B5 /* DuoWanNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE05148B1EBC7556005A90B5 /* DuoWanNetManager.m */; };
+		BE05148F1EBC7568005A90B5 /* TuWanNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE05148E1EBC7568005A90B5 /* TuWanNetManager.m */; };
+		BE0514921EBC757D005A90B5 /* XiMaNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0514911EBC757D005A90B5 /* XiMaNetManager.m */; };
 		BEB37D9F1EA760C200FE155F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB37D9E1EA760C200FE155F /* main.m */; };
 		BEB37DA21EA760C200FE155F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB37DA11EA760C200FE155F /* AppDelegate.m */; };
 		BEB37DA81EA760C200FE155F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB37DA61EA760C200FE155F /* Main.storyboard */; };
@@ -51,8 +53,6 @@
 		BE0514721EBC34CF005A90B5 /* FreeHeroModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeHeroModel.m; sourceTree = "<group>"; };
 		BE0514731EBC34CF005A90B5 /* HeroCZModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroCZModel.h; sourceTree = "<group>"; };
 		BE0514741EBC34CF005A90B5 /* HeroCZModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroCZModel.m; sourceTree = "<group>"; };
-		BE0514751EBC34CF005A90B5 /* HeroDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDetailModel.h; sourceTree = "<group>"; };
-		BE0514761EBC34CF005A90B5 /* HeroDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDetailModel.m; sourceTree = "<group>"; };
 		BE0514771EBC34CF005A90B5 /* HeroSkinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroSkinModel.h; sourceTree = "<group>"; };
 		BE0514781EBC34CF005A90B5 /* HeroSkinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroSkinModel.m; sourceTree = "<group>"; };
 		BE0514791EBC34CF005A90B5 /* HeroVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroVideoModel.h; sourceTree = "<group>"; };
@@ -63,6 +63,12 @@
 		BE0514851EBC34E0005A90B5 /* AlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumModel.m; sourceTree = "<group>"; };
 		BE0514861EBC34E0005A90B5 /* RankingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingListModel.h; sourceTree = "<group>"; };
 		BE0514871EBC34E0005A90B5 /* RankingListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingListModel.m; sourceTree = "<group>"; };
+		BE05148A1EBC7556005A90B5 /* DuoWanNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanNetManager.h; sourceTree = "<group>"; };
+		BE05148B1EBC7556005A90B5 /* DuoWanNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanNetManager.m; sourceTree = "<group>"; };
+		BE05148D1EBC7568005A90B5 /* TuWanNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanNetManager.h; sourceTree = "<group>"; };
+		BE05148E1EBC7568005A90B5 /* TuWanNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanNetManager.m; sourceTree = "<group>"; };
+		BE0514901EBC757D005A90B5 /* XiMaNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaNetManager.h; sourceTree = "<group>"; };
+		BE0514911EBC757D005A90B5 /* XiMaNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaNetManager.m; sourceTree = "<group>"; };
 		BEB37D9A1EA760C200FE155F /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB37D9E1EA760C200FE155F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEB37DA01EA760C200FE155F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,8 +135,6 @@
 				BE0514721EBC34CF005A90B5 /* FreeHeroModel.m */,
 				BE0514731EBC34CF005A90B5 /* HeroCZModel.h */,
 				BE0514741EBC34CF005A90B5 /* HeroCZModel.m */,
-				BE0514751EBC34CF005A90B5 /* HeroDetailModel.h */,
-				BE0514761EBC34CF005A90B5 /* HeroDetailModel.m */,
 				BE0514771EBC34CF005A90B5 /* HeroSkinModel.h */,
 				BE0514781EBC34CF005A90B5 /* HeroSkinModel.m */,
 				BE0514791EBC34CF005A90B5 /* HeroVideoModel.h */,
@@ -262,6 +266,12 @@
 			children = (
 				BEB37DC11EA762AC00FE155F /* BaseNetManager.h */,
 				BEB37DC21EA762AC00FE155F /* BaseNetManager.m */,
+				BE05148A1EBC7556005A90B5 /* DuoWanNetManager.h */,
+				BE05148B1EBC7556005A90B5 /* DuoWanNetManager.m */,
+				BE05148D1EBC7568005A90B5 /* TuWanNetManager.h */,
+				BE05148E1EBC7568005A90B5 /* TuWanNetManager.m */,
+				BE0514901EBC757D005A90B5 /* XiMaNetManager.h */,
+				BE0514911EBC757D005A90B5 /* XiMaNetManager.m */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -436,16 +446,18 @@
 				BEB37DC31EA762AC00FE155F /* BaseNetManager.m in Sources */,
 				BEB37E651EADF37A00FE155F /* BaseViewModel.m in Sources */,
 				BEB37E4C1EA8A8D000FE155F /* ViewController.m in Sources */,
+				BE0514921EBC757D005A90B5 /* XiMaNetManager.m in Sources */,
 				BEB37DA21EA760C200FE155F /* AppDelegate.m in Sources */,
 				BE0514631EBC30D2005A90B5 /* NSObject+Common.m in Sources */,
 				BE0514831EBC34D8005A90B5 /* TuWanModel.m in Sources */,
 				BE05147B1EBC34CF005A90B5 /* AllHeroModel.m in Sources */,
-				BE05147E1EBC34CF005A90B5 /* HeroDetailModel.m in Sources */,
 				BE0514651EBC30D2005A90B5 /* NSString+QRCode.m in Sources */,
 				BE0514801EBC34CF005A90B5 /* HeroVideoModel.m in Sources */,
 				BE05146B1EBC3309005A90B5 /* AppDelegate+Category.m in Sources */,
 				BE0514891EBC34E0005A90B5 /* RankingListModel.m in Sources */,
 				BEB37DC01EA7627A00FE155F /* BaseModel.m in Sources */,
+				BE05148F1EBC7568005A90B5 /* TuWanNetManager.m in Sources */,
+				BE05148C1EBC7556005A90B5 /* DuoWanNetManager.m in Sources */,
 				BEB37DC81EA763A900FE155F /* ScrollDisplayViewController.m in Sources */,
 				BEB37D9F1EA760C200FE155F /* main.m in Sources */,
 				BE0514641EBC30D2005A90B5 /* NSString+PJR.m in Sources */,

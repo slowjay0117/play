@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "AppDelegate+Category.h"
+#import "BaseNetManager.h"
+#import "TuWanModel.h"
+#import "TuWanNetManager.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +21,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self initializeWithApplication:application];
+    
+//    //NSString *path = @"http://cache.tuwan.com/app/?appid=1&class=heronews&mod=八卦&appid=1&appver=2.1";
+//    NSString *path = @"http://cache.tuwan.com/app/";
+//    NSDictionary *params = @{@"appid":@1, @"class":@"heronews", @"mod":@"八卦", @"appver":@2.1};
+//    [BaseNetManager GET:path parameters:params completionHandler:^(id responseObj, NSError *error) {
+//        TuWanModel *model = [TuWanModel mj_objectWithKeyValues:responseObj];
+//        DDLogVerbose(@"..............");
+//    }];
+    [TuWanNetManager getTuWanListType:TuWanListTuiJian start:0 completionHandler:^(TuWanModel *model, NSError *error) {
+        DDLogVerbose(@"........");
+    }];
+    
+    
     
     return YES;
 }
