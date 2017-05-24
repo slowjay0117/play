@@ -50,6 +50,7 @@
 		BEB37E651EADF37A00FE155F /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB37E641EADF37A00FE155F /* BaseViewModel.m */; };
 		BEB37E991EAF4E7900FE155F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB37E981EAF4E7900FE155F /* libsqlite3.0.tbd */; };
 		BEDFA7611ED5319C005A45EB /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7601ED5319C005A45EB /* Factory.m */; };
+		BEDFA7641ED53686005A45EB /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7631ED53686005A45EB /* TuWanViewModel.m */; };
 		F400F60A8ADE41586FE89506 /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +144,8 @@
 		BEB37E981EAF4E7900FE155F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		BEDFA75F1ED5319C005A45EB /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
 		BEDFA7601ED5319C005A45EB /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		BEDFA7621ED53686005A45EB /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
+		BEDFA7631ED53686005A45EB /* TuWanViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanViewModel.m; sourceTree = "<group>"; };
 		D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -284,6 +287,8 @@
 		BE77C1D41EC565160025D288 /* 兔玩游戏 */ = {
 			isa = PBXGroup;
 			children = (
+				BEDFA7621ED53686005A45EB /* TuWanViewModel.h */,
+				BEDFA7631ED53686005A45EB /* TuWanViewModel.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -622,6 +627,7 @@
 				BE94D3B21EC2E770002D5311 /* HeroGiftModel.m in Sources */,
 				BE77C1E51EC568B00025D288 /* LeftViewController.m in Sources */,
 				BE94D3A01EC2CF2B002D5311 /* FreeHeroModel.m in Sources */,
+				BEDFA7641ED53686005A45EB /* TuWanViewModel.m in Sources */,
 				BE77C1E21EC567610025D288 /* RankListViewController.m in Sources */,
 				BE77C1DC1EC566FC0025D288 /* TuWanViewController.m in Sources */,
 				BE94D3A91EC2DEE2002D5311 /* HeroVideoModel.m in Sources */,
@@ -760,7 +766,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = RY6LLVSEC8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/will/Desktop/MyProject/MyProject/Resource/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "/Users/will/Desktop/达内/项目/玩/MyProject/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = MyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.will.MyProject;
@@ -776,7 +782,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = RY6LLVSEC8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/will/Desktop/MyProject/MyProject/Resource/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "/Users/will/Desktop/达内/项目/玩/MyProject/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = MyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.will.MyProject;
