@@ -46,4 +46,49 @@
     }];
 }
 
+- (BOOL)isExistIndexPic{
+    return self.indexPicArr != nil && self.indexPicArr.count != 0;
+}
+
+- (NSInteger)rowNumber{
+    return self.dataArr.count;
+}
+
+- (TuWanDataIndexpicModel *)modelForArr:(NSArray *)arr row:(NSInteger)row{
+    return arr[row];
+}
+
+/** 根据showtype 0是没有图，1是有图 */
+- (BOOL)containImages:(NSInteger)row{
+    return [[self modelForArr:self.dataArr row:row].showtype isEqualToString:@"1"];
+}
+
+- (NSString *)titleForRowInList:(NSInteger)row{
+    return [self modelForArr:self.dataArr row:row].title;
+}
+
+- (NSURL *)iconURLForRowInList:(NSInteger)row{
+    return [NSURL URLWithString:[self modelForArr:self.dataArr row:row].litpic];
+}
+
+- (NSString *)descForRowInList:(NSInteger)row{
+    return [self modelForArr:self.dataArr row:row].longtitle;
+}
+
+- (NSString *)clicksForRowInList:(NSInteger)row{
+    return [[self modelForArr:self.dataArr row:row].click stringByAppendingString:@"浏览人数"];
+}
+
+- (NSURL *)iconURLForRowInIndexPic:(NSInteger)row{
+    return [NSURL URLWithString:[self modelForArr:self.indexPicArr row:row].litpic];
+}
+
+- (NSString *)titleForRowInIndexPic:(NSInteger)row{
+    return [self modelForArr:self.indexPicArr row:row].title;
+}
+
+- (NSInteger)indexPicNumber{
+    return self.indexPicArr.count;
+}
+
 @end
