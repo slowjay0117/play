@@ -17,9 +17,10 @@
     [self hideProgress];
     MBProgressHUD *progressHUD = [MBProgressHUD showHUDAddedTo:[self currentView] animated:YES];
     progressHUD.mode = MBProgressHUDModeText;
-    progressHUD.label.text = msg.description;
-    //[progressHUD hide:YES afterDelay:kToastDuration];
-    [progressHUD hideAnimated:YES afterDelay:kToastDuration];
+    //progressHUD.label.text = msg.description;
+    progressHUD.labelText = msg.description;
+    [progressHUD hide:YES afterDelay:kToastDuration];
+    //[progressHUD hideAnimated:YES afterDelay:kToastDuration];
 }
 
 //显示成功提示
@@ -27,15 +28,17 @@
     [self hideProgress];
     MBProgressHUD *progressHUD = [MBProgressHUD showHUDAddedTo:[self currentView] animated:YES];
     progressHUD.mode = MBProgressHUDModeText;
-    progressHUD.label.text = msg.description;
-    //[progressHUD hide:YES afterDelay:kToastDuration];
-    [progressHUD hideAnimated:YES afterDelay:kToastDuration];
+    //progressHUD.label.text = msg.description;
+    progressHUD.labelText = msg.description;
+    [progressHUD hide:YES afterDelay:kToastDuration];
+    //[progressHUD hideAnimated:YES afterDelay:kToastDuration];
 }
 
 //显示忙
 - (void)showProgress{
     MBProgressHUD *progressHUD = [MBProgressHUD showHUDAddedTo:[self currentView] animated:YES];
-    [progressHUD hideAnimated:YES afterDelay:kToastDuration];
+    //[progressHUD hideAnimated:YES afterDelay:kToastDuration];
+    [progressHUD hide:YES afterDelay:kToastDuration];
 }
 
 //隐藏提示

@@ -1,17 +1,16 @@
 //
 //  HeroSkinModel.m
-//  BaseProject
+//  MyProject
 //
-//  Created by jiyingxin on 15/11/2.
-//  Copyright © 2015年 Tarena. All rights reserved.
+//  Created by will on 2017/5/10.
+//  Copyright © 2017年 will. All rights reserved.
 //
 
 #import "HeroSkinModel.h"
 
 @implementation HeroSkinModel
-
-+ (NSDictionary *)replacedKeyFromPropertyName{
-    return @{@"ID": @"id"};
++ (NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{@"ID":@"id"};
 }
 @end
 

@@ -1,34 +1,57 @@
 //
 //  TuWanNetManager.h
-//  MyProject
+//  BaseProject
 //
-//  Created by will on 2017/5/5.
-//  Copyright © 2017年 will. All rights reserved.
+//  Created by jiyingxin on 15/11/3.
+//  Copyright © 2015年 Tarena. All rights reserved.
 //
 
 #import "BaseNetManager.h"
 #import "TuWanModel.h"
-// 只要公用一个解析类的请求，就可以合起来写，只需要使用枚举变量，来决定不同的请求地址即可
+//只要公用一个解析类的请求，就可以合起来写，只需要使用枚举变量，来决定不同的请求地址即可
+//如果不会 可以参考汽车之家接口
 
-typedef NS_ENUM(NSUInteger, TuWanListType){
-    TuWanListTouTiao,   //头条
-    TuWanListDuJia,     //独家
-    TuWanListAnHei,     //暗黑3
-    TuWanListMoShou,    //魔兽
-    TuWanListFengBao,   //风暴
-    TuWanListLuShi,     //炉石
-    TuWanListXingJi,    //星际2
-    TuWanListShouWang,  //守望
-    TuWanListTuPian,    //图片
-    TuWanListShiPin,    //视频
-    TuWanListGongLue,   //攻略
-    TuWanListHuanHua,   //幻化
-    TuWanListQuWen,     //趣闻
-    TuWanListCOS,       //COS
-    TuWanListMeiNv,     //美女
-    TuWanListTuiJian    //推荐
+typedef NS_ENUM(NSUInteger, InfoType) {
+    InfoTypeTouTiao,        //头条
+    InfoTypeDuJia,          //独家
+    InfoTypeAnHei3,         //暗黑3
+    InfoTypeMoShou,         //魔兽
+    InfoTypeFengBao,        //风暴
+    InfoTypeLuShi,          //炉石
+    InfoTypeXingJi2,        //星际2
+    InfoTypeShouWang,       //守望
+    InfoTypeTuPian,         //图片
+    InfoTypeShiPin,         //视频
+    InfoTypeGongLue,        //攻略
+    InfoTypeHuanHua,        //幻化
+    InfoTypeQuWen,          //趣闻
+    InfoTypeCos,            //COS
+    InfoTypeMeiNv,          //美女
 };
 
 @interface TuWanNetManager : BaseNetManager
-+ (id)getTuWanListType:(TuWanListType)type start:(NSInteger)start completionHandler:(void(^)(TuWanModel *model, NSError *error))completionHandler;
+
+//下方注释是 VVDocumenter 插件生成的。 安装此插件，在任何需要注释的位置 写///   三个/ 就可以自动弹出注释模板了
+
+/**
+ *  获取某种类型的资讯
+ *
+ *  @param type  资讯类型
+ *  @param start 当前资讯起始索引值，最小为0
+ *
+ *  @return 请求所在任务
+ */
++ (id)getTuWanInfoWithType:(InfoType)type start:(NSInteger)start kCompletionHandle;
+
 @end
+
+
+
+
+
+
+
+
+
+
+

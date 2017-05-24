@@ -24,7 +24,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DACircularProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FlatUIKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -49,12 +59,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MWPhotoBrowser-MWPhotoBrowser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MWPhotoBrowser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-MyProject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RESideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -69,7 +94,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SWTableViewCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Shimmer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>iCarousel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -87,17 +127,37 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>175B076ED45EB1A3E40F58BA14036467</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>178CB1125C7488DAF287644ADE19A1B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1A64949129C46CB3F59F04473D2673C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1B9891708D9F9B504F2482EDDB834F6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>23D7DA26C40DEA0CBB49A7825C7CD4F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>53527E5B5245A0431BC02AB7E8EA2D2B</key>
+		<key>2596169E954907C07413FA0DF674480A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
+		<key>3E12FCDABAF99FC7DE7EA9E26EE95FA3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -108,6 +168,16 @@
 			<true/>
 		</dict>
 		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90DCEA37350DADA25C02CCED73E88071</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98684B677FD4543968A15ADAF25EEE56</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -132,17 +202,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BA0D05997F2BC6B7C4CD7CC88103F2CF</key>
+		<key>C6D4A4E84B13CF1A0652CFE3DFF0B78B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BB8364FF617D513D856389A2305A6232</key>
+		<key>C791F0A928C1A8FE97074DFC9ACF4E75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BF2E576A481FD04596AFEF872D1D564E</key>
+		<key>CB36E2477506117A72382F6D7176D266</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D31F2E1140FD881D5FEB76F35D954576</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC7A51F0B370F9976D21032BDDB7222E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

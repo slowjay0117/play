@@ -20,5 +20,12 @@ pod 'TPKeyboardAvoiding'
 pod 'MLTransition'
 pod 'FMDB'
 pod 'CocoaAsyncSocket'
+pod 'iCarousel'
+pod 'Shimmer'
+pod 'RESideMenu'
+pod 'SWTableViewCell'
+pod 'FlatUIKit'
+pod 'MWPhotoBrowser'
+pod 'UMengAnalytics'
 
 end

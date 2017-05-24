@@ -16,27 +16,27 @@ static AFHTTPSessionManager *manager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         manager = [AFHTTPSessionManager manager];
-        manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", @"application/json", @"text/json", @"text/javascript", nil];
+        manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", @"application/json", @"text/json", @"text/javascript", @"text/plain", nil];
     });
     return manager;
 }
 
 // 方法：把path和参数拼接起来，把字符串中的中文转换为 百分号 形式，因为有的服务器不接收中文编码
-//+ (NSString *)percentPathWithPath:(NSString *)path params:(NSDictionary *)params{
-//    NSMutableString *percentPath = [NSMutableString stringWithString:path];
-//    NSArray *keys = params.allKeys;
-//    NSInteger count = keys.count;
-//    // OC语言特性是runtime，实际上我们调用一个方法，底层操作是 在一个方法列表中搜索你调用的方法所在的地址，然后调用完毕之后把这个方法名转移到常用方法列表。所以如果再次执行某个方法就在常用方法列表中搜索调用，效率更高。
-//    for (int i = 0; i < count; i++) {
-//        if (i == 0) {
-//            [percentPath appendFormat:@"?%@=%@", keys[i], params[keys[i]]];
-//        } else {
-//            [percentPath appendFormat:@"&%@=%@", keys[i], params[keys[i]]];
-//        }
-//    }
-//    // 把字符串中的中文转为%号形式
-//    return [percentPath stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
-//}
++ (NSString *)percentPathWithPath:(NSString *)path params:(NSDictionary *)params{
+    NSMutableString *percentPath = [NSMutableString stringWithString:path];
+    NSArray *keys = params.allKeys;
+    NSInteger count = keys.count;
+    // OC语言特性是runtime，实际上我们调用一个方法，底层操作是 在一个方法列表中搜索你调用的方法所在的地址，然后调用完毕之后把这个方法名转移到常用方法列表。所以如果再次执行某个方法就在常用方法列表中搜索调用，效率更高。
+    for (int i = 0; i < count; i++) {
+        if (i == 0) {
+            [percentPath appendFormat:@"?%@=%@", keys[i], params[keys[i]]];
+        } else {
+            [percentPath appendFormat:@"&%@=%@", keys[i], params[keys[i]]];
+        }
+    }
+    // 把字符串中的中文转为%号形式
+    return [percentPath stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+}
 
 + (id)GET:(NSString *)path parameters:(NSDictionary *)params completionHandler:(void(^)(id responseObj, NSError *error))complete{
 //    path = [self percentPathWithPath:path params:params];

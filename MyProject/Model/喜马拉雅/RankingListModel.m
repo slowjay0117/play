@@ -1,22 +1,22 @@
 //
 //  RankingListModel.m
-//  BaseProject
+//  MyProject
 //
-//  Created by jiyingxin on 15/11/2.
-//  Copyright © 2015年 Tarena. All rights reserved.
+//  Created by will on 2017/5/11.
+//  Copyright © 2017年 will. All rights reserved.
 //
 
 #import "RankingListModel.h"
 
 @implementation RankingListModel
-
-
 + (NSDictionary *)objectClassInArray{
-    return @{@"list" : [RankListListModel class]};
+    return @{@"list" : [RankingListListModel class]};
 }
 @end
-@implementation RankListListModel
-
+@implementation RankingListListModel
++ (NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{@"ID":@"id"};
+}
 @end
 
 

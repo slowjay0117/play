@@ -1,14 +1,14 @@
 //
 //  RankingListModel.h
-//  BaseProject
+//  MyProject
 //
-//  Created by jiyingxin on 15/11/2.
-//  Copyright © 2015年 Tarena. All rights reserved.
+//  Created by will on 2017/5/11.
+//  Copyright © 2017年 will. All rights reserved.
 //
 
 #import "BaseModel.h"
 
-@class RankListListModel;
+@class RankingListListModel;
 @interface RankingListModel : BaseModel
 
 @property (nonatomic, assign) NSInteger pageId;
@@ -21,12 +21,12 @@
 
 @property (nonatomic, copy) NSString *msg;
 
-@property (nonatomic, strong) NSArray<RankListListModel *> *list;
+@property (nonatomic, strong) NSArray<RankingListListModel *> *list;
 
 @property (nonatomic, assign) NSInteger ret;
 
 @end
-@interface RankListListModel : NSObject
+@interface RankingListListModel : NSObject
 
 @property (nonatomic, assign) NSInteger ID;
 
@@ -40,15 +40,19 @@
 
 @property (nonatomic, assign) NSInteger playsCounts;
 
-@property (nonatomic, assign) NSInteger isFinished;
+@property (nonatomic, copy) NSString *coverSmall;
 
 @property (nonatomic, copy) NSString *tags;
+
+@property (nonatomic, assign) NSInteger isFinished;
 
 @property (nonatomic, copy) NSString *coverMiddle;
 
 @property (nonatomic, copy) NSString *title;
 
 @property (nonatomic, assign) NSInteger lastUptrackAt;
+
+@property (nonatomic, assign) BOOL isPaid;
 
 @property (nonatomic, copy) NSString *albumCoverUrl290;
 
@@ -57,6 +61,8 @@
 @property (nonatomic, assign) NSInteger albumId;
 
 @property (nonatomic, copy) NSString *nickname;
+
+@property (nonatomic, assign) NSInteger priceTypeId;
 
 @property (nonatomic, assign) NSInteger lastUptrackId;
 

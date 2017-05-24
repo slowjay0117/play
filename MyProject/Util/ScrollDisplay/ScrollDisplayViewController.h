@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 // 使用网络图片，需要引入SDWebImage，请到下面网址下载
 // https://github.com/rs/SDWebImage
-#import <UIView+WebCache.h>
+#import <UIView+WebCacheOperation.h>
 #import <UIButton+WebCache.h>
 
 @class ScrollDisplayViewController;

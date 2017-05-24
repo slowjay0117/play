@@ -1,22 +1,20 @@
 //
 //  FreeHeroModel.m
-//  BaseProject
+//  MyProject
 //
-//  Created by jiyingxin on 15/11/2.
-//  Copyright © 2015年 Tarena. All rights reserved.
+//  Created by will on 2017/5/10.
+//  Copyright © 2017年 will. All rights reserved.
 //
 
 #import "FreeHeroModel.h"
 
 @implementation FreeHeroModel
-
-
 + (NSDictionary *)objectClassInArray{
     return @{@"free" : [FreeHeroFreeModel class]};
 }
 @end
-@implementation FreeHeroFreeModel
 
+@implementation FreeHeroFreeModel
 @end
 
 

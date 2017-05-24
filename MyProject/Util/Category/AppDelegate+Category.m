@@ -8,6 +8,7 @@
 
 #import "AppDelegate+Category.h"
 #import <AFNetworkActivityIndicatorManager.h>
+#import <UMMobClick/MobClick.h>
 
 @implementation AppDelegate (Category)
 
@@ -34,6 +35,10 @@
         }
     }];
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    // 启动友盟统计功能
+    UMConfigInstance.appKey = @"591522e28f4a9d52630001ef";
+    
+    [MobClick startWithConfigure:UMConfigInstance];
 }
 
 
@@ -59,6 +64,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+\
 
 @end

@@ -1,18 +1,18 @@
 //
 //  HeroCZModel.m
-//  BaseProject
+//  MyProject
 //
-//  Created by jiyingxin on 15/11/2.
-//  Copyright © 2015年 Tarena. All rights reserved.
+//  Created by will on 2017/5/10.
+//  Copyright © 2017年 will. All rights reserved.
 //
 
 #import "HeroCZModel.h"
 
 @implementation HeroCZModel
-
-+ (NSString *)replacedKeyFromPropertyName121:(NSString *)propertyName{
-//    驼峰转下划线（loveYou -> love_you）
++ (id)mj_replacedKeyFromPropertyName121:(NSString *)propertyName{
+    // loveYou -> love_you
     return [propertyName mj_underlineFromCamel];
 }
-
 @end
+
+

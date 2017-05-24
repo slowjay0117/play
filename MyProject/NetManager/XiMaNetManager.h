@@ -9,5 +9,6 @@
 #import "BaseNetManager.h"
 
 @interface XiMaNetManager : BaseNetManager
-
++ (id)getRankingListWithPageID:(NSInteger)page completionHandle:(void(^)(id responseObj, NSError *error))complete;
++ (id)getAlbumModelWithID:(NSInteger)ID pageID:(NSInteger)pageID completionHandle:(void(^)(id responseObj, NSError *error))complete;
 @end
