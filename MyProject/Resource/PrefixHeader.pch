@@ -22,7 +22,8 @@
 #endif
 /*Xcode7以下版本需要添加上方宏定义 支持AF*/
 
-
+/** 自定义工厂类，功能类。其中存放各种自定义方法 */
+#import "Factory.h"
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
