@@ -34,6 +34,11 @@
 /** 滚动展示栏的图片数量 */
 @property (nonatomic,assign) NSInteger indexPicNumber;
 
+/** 获取列表中某行数据对应的html5链接 */
+- (NSURL *)detailURLForRowInList:(NSInteger)row;
+/** 获取展示栏中某行数据对应的html5链接 */
+- (NSURL *)detailURLForRowInIndexPic:(NSInteger)row;
+
 /** 存放头部滚动栏 */
 @property (nonatomic,strong) NSArray *indexPicArr;
 /** 是否有头部滚动栏 */

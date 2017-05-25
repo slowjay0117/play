@@ -109,6 +109,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>WMPageController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>iCarousel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -132,17 +137,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>178CB1125C7488DAF287644ADE19A1B7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>1A64949129C46CB3F59F04473D2673C6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>1B9891708D9F9B504F2482EDDB834F6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C7396252BCA19207D0331DC17A8014A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -157,7 +157,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>337969DA33ED2C470951557F12B6CB8C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3E12FCDABAF99FC7DE7EA9E26EE95FA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>414DF1279987767F3F1F534A414F5439</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46C9B69D26F4D65FB88FAE53C55CA42E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -172,12 +187,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90DCEA37350DADA25C02CCED73E88071</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>98684B677FD4543968A15ADAF25EEE56</key>
+		<key>894FFBAAF18EAC275E20DE71E9E681CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -197,12 +207,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AFAFB55453D161D2BB5CFB30C68A54D5</key>
+		<key>AEB9BD9928FD238A103362680391FDA9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6D4A4E84B13CF1A0652CFE3DFF0B78B</key>
+		<key>AFAFB55453D161D2BB5CFB30C68A54D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -212,7 +222,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB36E2477506117A72382F6D7176D266</key>
+		<key>CC79A3261269CCE7F8C6B9C1BB847669</key>
 		<dict>
 			<key>primary</key>
 			<true/>

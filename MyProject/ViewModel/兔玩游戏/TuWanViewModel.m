@@ -91,4 +91,12 @@
     return self.indexPicArr.count;
 }
 
+- (NSURL *)detailURLForRowInList:(NSInteger)row{
+    return [NSURL URLWithString:[self modelForArr:self.dataArr row:row].html5];
+}
+
+- (NSURL *)detailURLForRowInIndexPic:(NSInteger)row{
+    return [NSURL URLWithString:[self modelForArr:self.indexPicArr row:row].html5];
+}
+
 @end

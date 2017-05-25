@@ -27,5 +27,7 @@ pod 'SWTableViewCell'
 pod 'FlatUIKit'
 pod 'MWPhotoBrowser'
 pod 'UMengAnalytics'
+pod 'WMPageController'
+
 
 end
