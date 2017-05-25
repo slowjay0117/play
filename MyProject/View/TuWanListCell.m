@@ -13,7 +13,7 @@
     if (!_iconIV) {
         _iconIV = [UIImageView new];
         // 内容模式：保持比例，填充满
-        _iconIV.contentMode = UIViewContentModeScaleAspectFill;
+        //_iconIV.contentMode = UIViewContentModeScaleAspectFill;
     }
     return _iconIV;
 }
@@ -31,6 +31,7 @@
         _longTitleLb = [UILabel new];
         _longTitleLb.font = [UIFont systemFontOfSize:14];
         _longTitleLb.textColor = [UIColor lightGrayColor];
+        _longTitleLb.numberOfLines = 0;
     }
     return _longTitleLb;
 }
@@ -55,7 +56,7 @@
         // 图片 左10，宽高92、70，竖向居中
         [self.iconIV mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(10);
-            make.size.mas_equalTo(CGSizeMake(92, 70));
+            make.size.mas_equalTo(CGSizeMake(92, 80));
             make.centerY.mas_equalTo(0);
         }];
         // 题目 距离图片右边缘8，右边缘10，上边缘比图片上边缘矮3
