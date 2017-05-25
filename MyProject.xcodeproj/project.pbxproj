@@ -51,6 +51,8 @@
 		BEB37E991EAF4E7900FE155F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB37E981EAF4E7900FE155F /* libsqlite3.0.tbd */; };
 		BEDFA7611ED5319C005A45EB /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7601ED5319C005A45EB /* Factory.m */; };
 		BEDFA7641ED53686005A45EB /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7631ED53686005A45EB /* TuWanViewModel.m */; };
+		BEDFA7671ED68712005A45EB /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7661ED68712005A45EB /* TuWanListViewController.m */; };
+		BEDFA76A1ED687AB005A45EB /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7691ED687AB005A45EB /* TuWanListCell.m */; };
 		F400F60A8ADE41586FE89506 /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +148,10 @@
 		BEDFA7601ED5319C005A45EB /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		BEDFA7621ED53686005A45EB /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
 		BEDFA7631ED53686005A45EB /* TuWanViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanViewModel.m; sourceTree = "<group>"; };
+		BEDFA7651ED68712005A45EB /* TuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListViewController.h; sourceTree = "<group>"; };
+		BEDFA7661ED68712005A45EB /* TuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListViewController.m; sourceTree = "<group>"; };
+		BEDFA7681ED687AB005A45EB /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
+		BEDFA7691ED687AB005A45EB /* TuWanListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListCell.m; sourceTree = "<group>"; };
 		D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -255,6 +261,8 @@
 			children = (
 				BE77C1DA1EC566FC0025D288 /* TuWanViewController.h */,
 				BE77C1DB1EC566FC0025D288 /* TuWanViewController.m */,
+				BEDFA7651ED68712005A45EB /* TuWanListViewController.h */,
+				BEDFA7661ED68712005A45EB /* TuWanListViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -382,6 +390,8 @@
 		BEB37DB61EA761B800FE155F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BEDFA7681ED687AB005A45EB /* TuWanListCell.h */,
+				BEDFA7691ED687AB005A45EB /* TuWanListCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -611,6 +621,7 @@
 				BE94D3AF1EC2E14B002D5311 /* HeroDetailModel.m in Sources */,
 				BE94D3B81EC2E93B002D5311 /* ToolMenuModel.m in Sources */,
 				BE0514921EBC757D005A90B5 /* XiMaNetManager.m in Sources */,
+				BEDFA7671ED68712005A45EB /* TuWanListViewController.m in Sources */,
 				BEB37DA21EA760C200FE155F /* AppDelegate.m in Sources */,
 				BE696E561EC2EC5000CC1080 /* GiftModel.m in Sources */,
 				BE0514631EBC30D2005A90B5 /* NSObject+Common.m in Sources */,
@@ -629,6 +640,7 @@
 				BE94D3A01EC2CF2B002D5311 /* FreeHeroModel.m in Sources */,
 				BEDFA7641ED53686005A45EB /* TuWanViewModel.m in Sources */,
 				BE77C1E21EC567610025D288 /* RankListViewController.m in Sources */,
+				BEDFA76A1ED687AB005A45EB /* TuWanListCell.m in Sources */,
 				BE77C1DC1EC566FC0025D288 /* TuWanViewController.m in Sources */,
 				BE94D3A91EC2DEE2002D5311 /* HeroVideoModel.m in Sources */,
 				BE05148C1EBC7556005A90B5 /* DuoWanNetManager.m in Sources */,
