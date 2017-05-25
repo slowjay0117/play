@@ -53,6 +53,7 @@
 		BEDFA7641ED53686005A45EB /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7631ED53686005A45EB /* TuWanViewModel.m */; };
 		BEDFA7671ED68712005A45EB /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7661ED68712005A45EB /* TuWanListViewController.m */; };
 		BEDFA76A1ED687AB005A45EB /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7691ED687AB005A45EB /* TuWanListCell.m */; };
+		BEDFA76D1ED6C0E8005A45EB /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA76C1ED6C0E8005A45EB /* TuWanImageCell.m */; };
 		F400F60A8ADE41586FE89506 /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */; };
 /* End PBXBuildFile section */
 
@@ -152,6 +153,8 @@
 		BEDFA7661ED68712005A45EB /* TuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListViewController.m; sourceTree = "<group>"; };
 		BEDFA7681ED687AB005A45EB /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
 		BEDFA7691ED687AB005A45EB /* TuWanListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListCell.m; sourceTree = "<group>"; };
+		BEDFA76B1ED6C0E8005A45EB /* TuWanImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanImageCell.h; sourceTree = "<group>"; };
+		BEDFA76C1ED6C0E8005A45EB /* TuWanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageCell.m; sourceTree = "<group>"; };
 		D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -392,6 +395,8 @@
 			children = (
 				BEDFA7681ED687AB005A45EB /* TuWanListCell.h */,
 				BEDFA7691ED687AB005A45EB /* TuWanListCell.m */,
+				BEDFA76B1ED6C0E8005A45EB /* TuWanImageCell.h */,
+				BEDFA76C1ED6C0E8005A45EB /* TuWanImageCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -636,6 +641,7 @@
 				BE77C1D91EC565CF0025D288 /* DuoWanTabBarController.m in Sources */,
 				BE94D3BE1EC2EA17002D5311 /* ZBItemModel.m in Sources */,
 				BE94D3B21EC2E770002D5311 /* HeroGiftModel.m in Sources */,
+				BEDFA76D1ED6C0E8005A45EB /* TuWanImageCell.m in Sources */,
 				BE77C1E51EC568B00025D288 /* LeftViewController.m in Sources */,
 				BE94D3A01EC2CF2B002D5311 /* FreeHeroModel.m in Sources */,
 				BEDFA7641ED53686005A45EB /* TuWanViewModel.m in Sources */,
