@@ -55,6 +55,7 @@
 		BEDFA76A1ED687AB005A45EB /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7691ED687AB005A45EB /* TuWanListCell.m */; };
 		BEDFA76D1ED6C0E8005A45EB /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA76C1ED6C0E8005A45EB /* TuWanImageCell.m */; };
 		BEDFA7701ED7E6DB005A45EB /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA76F1ED7E6DB005A45EB /* MyImageView.m */; };
+		BEDFA7731ED8132D005A45EB /* TuWanHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7721ED8132D005A45EB /* TuWanHtmlViewController.m */; };
 		F400F60A8ADE41586FE89506 /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */; };
 /* End PBXBuildFile section */
 
@@ -158,6 +159,8 @@
 		BEDFA76C1ED6C0E8005A45EB /* TuWanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageCell.m; sourceTree = "<group>"; };
 		BEDFA76E1ED7E6DB005A45EB /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
 		BEDFA76F1ED7E6DB005A45EB /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		BEDFA7711ED8132D005A45EB /* TuWanHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanHtmlViewController.h; sourceTree = "<group>"; };
+		BEDFA7721ED8132D005A45EB /* TuWanHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanHtmlViewController.m; sourceTree = "<group>"; };
 		D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -269,6 +272,8 @@
 				BE77C1DB1EC566FC0025D288 /* TuWanViewController.m */,
 				BEDFA7651ED68712005A45EB /* TuWanListViewController.h */,
 				BEDFA7661ED68712005A45EB /* TuWanListViewController.m */,
+				BEDFA7711ED8132D005A45EB /* TuWanHtmlViewController.h */,
+				BEDFA7721ED8132D005A45EB /* TuWanHtmlViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -629,6 +634,7 @@
 				BE94D3A31EC2CF7D002D5311 /* AllHeroModel.m in Sources */,
 				BE78C64A1EC463280000E866 /* AlbumModel.m in Sources */,
 				BE94D3AC1EC2DFEB002D5311 /* HeroCZModel.m in Sources */,
+				BEDFA7731ED8132D005A45EB /* TuWanHtmlViewController.m in Sources */,
 				BE94D3AF1EC2E14B002D5311 /* HeroDetailModel.m in Sources */,
 				BE94D3B81EC2E93B002D5311 /* ToolMenuModel.m in Sources */,
 				BE0514921EBC757D005A90B5 /* XiMaNetManager.m in Sources */,

@@ -109,4 +109,23 @@
     return [array copy];
 }
 
+- (BOOL)isVideoInListForRow:(NSInteger)row{
+    return [[self modelForArr:self.dataArr row:row].type isEqualToString:@"video"];
+}
+- (BOOL)isVideoInIndexPicForRow:(NSInteger)row{
+    return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"video"];
+}
+- (BOOL)isPicInListForRow:(NSInteger)row{
+    return [[self modelForArr:self.dataArr row:row].type isEqualToString:@"pic"];
+}
+- (BOOL)isPicInIndexPicForRow:(NSInteger)row{
+    return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"pic"];
+}
+- (BOOL)isHtmlInListForRow:(NSInteger)row{
+    return [[self modelForArr:self.dataArr row:row].type isEqualToString:@"all"];
+}
+- (BOOL)isHtmlInIndexPicForRow:(NSInteger)row{
+    return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"all"];
+}
+
 @end
