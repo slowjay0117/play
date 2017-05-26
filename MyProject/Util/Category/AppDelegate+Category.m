@@ -39,6 +39,8 @@
     UMConfigInstance.appKey = @"591522e28f4a9d52630001ef";
     
     [MobClick startWithConfigure:UMConfigInstance];
+    // 友盟统计默认情况下回关闭掉xcode默认的crash提示
+    [MobClick setLogEnabled:YES];
 }
 
 
