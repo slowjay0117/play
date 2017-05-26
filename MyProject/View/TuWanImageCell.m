@@ -27,23 +27,23 @@
     return _clicksNumLb;
 }
 
-- (UIImageView *)iconIV0{
+- (MyImageView *)iconIV0{
     if (!_iconIV0) {
-        _iconIV0 = [UIImageView new];
+        _iconIV0 = [MyImageView new];
     }
     return _iconIV0;
 }
 
-- (UIImageView *)iconIV1{
+- (MyImageView *)iconIV1{
     if (!_iconIV1) {
-        _iconIV1 = [UIImageView new];
+        _iconIV1 = [MyImageView new];
     }
     return _iconIV1;
 }
 
-- (UIImageView *)iconIV2{
+- (MyImageView *)iconIV2{
     if (!_iconIV2) {
-        _iconIV2 = [UIImageView new];
+        _iconIV2 = [MyImageView new];
     }
     return _iconIV2;
 }

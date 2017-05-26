@@ -54,6 +54,7 @@
 		BEDFA7671ED68712005A45EB /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7661ED68712005A45EB /* TuWanListViewController.m */; };
 		BEDFA76A1ED687AB005A45EB /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7691ED687AB005A45EB /* TuWanListCell.m */; };
 		BEDFA76D1ED6C0E8005A45EB /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA76C1ED6C0E8005A45EB /* TuWanImageCell.m */; };
+		BEDFA7701ED7E6DB005A45EB /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA76F1ED7E6DB005A45EB /* MyImageView.m */; };
 		F400F60A8ADE41586FE89506 /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */; };
 /* End PBXBuildFile section */
 
@@ -155,6 +156,8 @@
 		BEDFA7691ED687AB005A45EB /* TuWanListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListCell.m; sourceTree = "<group>"; };
 		BEDFA76B1ED6C0E8005A45EB /* TuWanImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanImageCell.h; sourceTree = "<group>"; };
 		BEDFA76C1ED6C0E8005A45EB /* TuWanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageCell.m; sourceTree = "<group>"; };
+		BEDFA76E1ED7E6DB005A45EB /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		BEDFA76F1ED7E6DB005A45EB /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
 		D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -397,6 +400,8 @@
 				BEDFA7691ED687AB005A45EB /* TuWanListCell.m */,
 				BEDFA76B1ED6C0E8005A45EB /* TuWanImageCell.h */,
 				BEDFA76C1ED6C0E8005A45EB /* TuWanImageCell.m */,
+				BEDFA76E1ED7E6DB005A45EB /* MyImageView.h */,
+				BEDFA76F1ED7E6DB005A45EB /* MyImageView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -612,6 +617,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDFA7701ED7E6DB005A45EB /* MyImageView.m in Sources */,
 				BE78C6471EC461E60000E866 /* RankingListModel.m in Sources */,
 				BE696E5F1EC2F15700CC1080 /* BestGroupModel.m in Sources */,
 				BEB37DC31EA762AC00FE155F /* BaseNetManager.m in Sources */,

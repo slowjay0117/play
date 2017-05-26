@@ -59,14 +59,14 @@
         TuWanImageCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ImageCell"];
         cell.titleLb.text = [self.tuwanVM titleForRowInList:indexPath.row];
         cell.clicksNumLb.text = [self.tuwanVM clicksForRowInList:indexPath.row];
-        [cell.iconIV0 setImageWithURL:[self.tuwanVM iconURLSForRowInList:indexPath.row][0] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
-        [cell.iconIV1 setImageWithURL:[self.tuwanVM iconURLSForRowInList:indexPath.row][1] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
-        [cell.iconIV2 setImageWithURL:[self.tuwanVM iconURLSForRowInList:indexPath.row][2] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
+        [cell.iconIV0.imageView setImageWithURL:[self.tuwanVM iconURLSForRowInList:indexPath.row][0] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
+        [cell.iconIV1.imageView setImageWithURL:[self.tuwanVM iconURLSForRowInList:indexPath.row][1] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
+        [cell.iconIV2.imageView setImageWithURL:[self.tuwanVM iconURLSForRowInList:indexPath.row][2] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
         return cell;
     }
     TuWanListCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListCell" forIndexPath:indexPath];
     // placeholderImage当图片没有下载完成之前显示的图片
-    [cell.iconIV setImageWithURL:[self.tuwanVM iconURLForRowInList:indexPath.row] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_5"]];
+    [cell.iconIV.imageView setImageWithURL:[self.tuwanVM iconURLForRowInList:indexPath.row] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_5"]];
     cell.titleLb.text = [self.tuwanVM titleForRowInList:indexPath.row];
     cell.longTitleLb.text = [self.tuwanVM descForRowInList:indexPath.row];
     cell.clicksNumLb.text = [self.tuwanVM clicksForRowInList:indexPath.row];
