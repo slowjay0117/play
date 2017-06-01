@@ -11,7 +11,7 @@
 
 @interface TuWanViewModel : BaseViewModel
 /** 必须使用此初始化方法，需要一个类型 */
-- (instancetype)initWithType:(InfoType)type;
+- (instancetype)initWithType:()type;
 @property (nonatomic)InfoType type;
 
 @property (nonatomic,assign) NSInteger rowNumber; // 当前行数

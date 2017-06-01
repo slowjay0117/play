@@ -8,6 +8,7 @@
 
 #import "BaseNetManager.h"
 #import "TuWanModel.h"
+#import "TuWanViewModel.h"
 //只要公用一个解析类的请求，就可以合起来写，只需要使用枚举变量，来决定不同的请求地址即可
 //如果不会 可以参考汽车之家接口
 
@@ -42,7 +43,7 @@ typedef NS_ENUM(NSUInteger, InfoType) {
  *  @return 请求所在任务
  */
 + (id)getTuWanInfoWithType:(InfoType)type start:(NSInteger)start kCompletionHandle;
-
++ (id)getTuWanVideoWithAid:(NSString *)aid kCompletionHandle;
 @end
 
 

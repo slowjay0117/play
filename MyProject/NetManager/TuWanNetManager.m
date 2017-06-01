@@ -9,6 +9,7 @@
 #import "TuWanNetManager.h"
 
 #define kTuWanPath  @"http://cache.tuwan.com/app/"
+#define kTuWanApiPath   @"http://api.tuwan.com/app/"
 #define kAppId      @"appid": @1
 #define kAppVer     @"appver": @2.1
 #define kClassMore  @"classmore": @"indexpic"
@@ -106,6 +107,15 @@
     
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
         completionHandle([TuWanModel mj_objectWithKeyValues:responseObj], error);
+    }];
+}
+
++ (id)getTuWanVideoWithAid:(NSString *)aid completionHandle:(void (^)(id, NSError *))completionHandle{
+    NSMutableDictionary *parms = [NSMutableDictionary dictionaryWithDictionary:@{@"aid":aid,kAppId}];
+    NSString *path = [self percentPathWithPath:kTuWanApiPath params:parms];
+    
+    return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
+        completionHandle([TuWanViewModel mj_objectWithKeyValues:responseObj],error);
     }];
 }
 

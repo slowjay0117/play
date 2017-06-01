@@ -56,6 +56,7 @@
 		BEDFA76D1ED6C0E8005A45EB /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA76C1ED6C0E8005A45EB /* TuWanImageCell.m */; };
 		BEDFA7701ED7E6DB005A45EB /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA76F1ED7E6DB005A45EB /* MyImageView.m */; };
 		BEDFA7731ED8132D005A45EB /* TuWanHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7721ED8132D005A45EB /* TuWanHtmlViewController.m */; };
+		BEDFA7761EDD4916005A45EB /* TuWanVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDFA7751EDD4916005A45EB /* TuWanVideoModel.m */; };
 		F400F60A8ADE41586FE89506 /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +162,8 @@
 		BEDFA76F1ED7E6DB005A45EB /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
 		BEDFA7711ED8132D005A45EB /* TuWanHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanHtmlViewController.h; sourceTree = "<group>"; };
 		BEDFA7721ED8132D005A45EB /* TuWanHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanHtmlViewController.m; sourceTree = "<group>"; };
+		BEDFA7741EDD4916005A45EB /* TuWanVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanVideoModel.h; sourceTree = "<group>"; };
+		BEDFA7751EDD4916005A45EB /* TuWanVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanVideoModel.m; sourceTree = "<group>"; };
 		D6211ADE1C455B4ABF3B8907 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -241,6 +244,8 @@
 			children = (
 				BE3713D81EC550F000D918DC /* TuWanModel.h */,
 				BE3713D91EC550F000D918DC /* TuWanModel.m */,
+				BEDFA7741EDD4916005A45EB /* TuWanVideoModel.h */,
+				BEDFA7751EDD4916005A45EB /* TuWanVideoModel.m */,
 			);
 			path = "兔玩";
 			sourceTree = "<group>";
@@ -643,6 +648,7 @@
 				BE696E561EC2EC5000CC1080 /* GiftModel.m in Sources */,
 				BE0514631EBC30D2005A90B5 /* NSObject+Common.m in Sources */,
 				BE0514651EBC30D2005A90B5 /* NSString+QRCode.m in Sources */,
+				BEDFA7761EDD4916005A45EB /* TuWanVideoModel.m in Sources */,
 				BE05146B1EBC3309005A90B5 /* AppDelegate+Category.m in Sources */,
 				BE94D3BB1EC2E9B7002D5311 /* ZBCategoryModel.m in Sources */,
 				BE94D3A61EC2DBE4002D5311 /* HeroSkinModel.m in Sources */,
